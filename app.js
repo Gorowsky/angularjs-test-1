@@ -1,15 +1,8 @@
 import angular from 'angular';
-import ngRoute from 'angular-route';
-
-// Import your app stylesheets
 import './styles.css';
+import './src/index';
 
-// Import your app functionality
-import './src/app';
-
-// Create and bootstrap application
 const requires = [
-  ngRoute,
   'home'
 ];
 

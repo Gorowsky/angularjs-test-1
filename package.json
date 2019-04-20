@@ -2,13 +2,12 @@
   "name": "angularjs-test-task",
   "version": "1.0.0",
   "private": true,
-  "main": "./index.js",
+  "main": "./app.js",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --config webpack.dev.js"
   },
   "dependencies": {
-    "angular": "1.5.8",
-    "angular-route": "1.5.8"
+    "angular": "1.5.8"
   },
   "devDependencies": {
     "css-loader": "^0.28.9",
