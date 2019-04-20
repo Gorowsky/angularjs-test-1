@@ -7,7 +7,7 @@ module.exports = merge(common, {
     historyApiFallback: true,
     progress: true,
     watchContentBase: true,
-    contentBase: './src',
+    contentBase: './src/app',
     port: 4200,
   }
 });

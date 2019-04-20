@@ -1,11 +1,10 @@
 class HomeComponentCtrl {
   constructor() {
-    "s";
   }
 }
 
 const HomeComponent = {
-  templateUrl: './app/home.component.html',
+  templateUrl: './home.component.html',
   controller: HomeComponentCtrl,
   controllerAs: 'homeComponentCtrl'
 };
