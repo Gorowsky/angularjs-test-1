@@ -1,0 +1,9 @@
+{
+  "name": "angularjs",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.8",
+    "@uirouter/angularjs": "1.0.15"
+  }
+}
