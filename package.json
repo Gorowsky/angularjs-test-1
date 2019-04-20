@@ -1,7 +1,8 @@
 {
-  "name": "angularjs",
+  "name": "Test task in AngularJS",
   "version": "0.0.0",
   "private": true,
+  "main": "./index.js",
   "dependencies": {
     "angular": "1.5.8",
     "@uirouter/angularjs": "1.0.15"
