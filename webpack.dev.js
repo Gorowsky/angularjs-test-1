@@ -8,6 +8,6 @@ module.exports = merge(common, {
     progress: true,
     watchContentBase: true,
     contentBase: './src/app',
-    port: 4200,
+    port: 4200
   }
 });
