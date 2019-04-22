@@ -1,6 +1,5 @@
 class HomeComponentCtrl {
-  constructor() {
-  }
+  
 }
 
 const HomeComponent = {

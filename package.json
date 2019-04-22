@@ -7,9 +7,13 @@
     "start": "webpack-dev-server --hot --inline --config webpack.dev.js"
   },
   "dependencies": {
-    "angular": "1.5.8"
+    "angular": "1.5.8",
+    "angular-route": "1.5.8"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
     "copy-webpack-plugin": "^5.0.2",
     "css-loader": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",

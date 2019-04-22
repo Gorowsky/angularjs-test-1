@@ -32,8 +32,8 @@ module.exports = {
       template: `${__dirname}/index.html`,
       inject: 'body'
     }),
-    new CopyWebpackPlugin([{
-      from: './src/public/salads.json'
-    }])
+    new CopyWebpackPlugin([
+      { from: './src/public' }
+    ])
   ]
 };
