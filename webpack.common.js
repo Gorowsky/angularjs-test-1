@@ -9,8 +9,8 @@ module.exports = {
     extensions: [".webpack.js", ".web.js", ".js"]
   },
   output: {
-    path: path.resolve('./dist/'),
-    filename: 'js/bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].bundle.js',
     publicPath: '/'
   },
   module: {
@@ -24,6 +24,26 @@ module.exports = {
         exclude: [
           /node_modules/
         ]
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              [
+                "@babel/preset-env",
+                {
+                  "modules": "commonjs",
+                  "targets": {
+                    "node": "current"
+                  }
+                }
+              ]
+            ]
+          },
+        },
       }
     ]
   },
