@@ -15,7 +15,7 @@ class MealListService {
    * async/await.
    */
   getMeals() {
-    return this.http.get('/salads.json')
+    return this.http.get('/api/salads.json')
       .then(res => res.data);
   }
 }
