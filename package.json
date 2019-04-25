@@ -1,7 +1,6 @@
 {
   "name": "angularjs-test-task",
   "version": "1.0.0",
-  "private": true,
   "main": "./app.js",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --config webpack.dev.js"
